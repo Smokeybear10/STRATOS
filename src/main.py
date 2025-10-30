@@ -246,7 +246,7 @@ def make_fight_prediction(fighter1_data, fighter2_data, feature_columns, model):
 #======================================================================================================================
 
 def main():
-    filepath_ml_data = 'C:\\Users\\Lenovo\\Desktop\\MMA-Predictive-Analysis\\data\\masterMLpublic.csv'
+    filepath_ml_data = '/Users/thomasou/Github/MMA-Fight-Predictor/data/masterMLpublic.csv'
     full_data = load_data(filepath_ml_data)
     if full_data is None:
         print("Data loading failed. Exiting program.")
